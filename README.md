@@ -1,2 +1,2 @@
-# agularjs
+# angularjs
 study demo 
