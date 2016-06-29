@@ -10,5 +10,11 @@
 	<div my-directive></div>
 	<div class="my-directive"></div>
 	<!--directive:my-directive -->
+	<div my-second-directive some-attr='http://www.baidu.com' my-url-text="Click me"></div>
+	<div my-third-directive some-attr='http://www.baidu.com' my-url-text="Click me"></div>
+	<div>
+		<input type="text" ng-model="theirUrl"/>
+		<div my-fourth-directive some-attr="theirUrl" my-url-text="Click me">
+	</div>
 </body>
 </html>
